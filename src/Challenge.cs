@@ -170,9 +170,9 @@ namespace DesignPatternChallenge
         // Cliente precisa saber como navegar esta estrutura complexa
     }
 
-    class Program
+    public class LegacyProgram
     {
-        static void Main(string[] args)
+        public static void RunLegacy()
         {
             Console.WriteLine("=== Sistema de Playlist ===");
 
